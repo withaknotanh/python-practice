@@ -13,5 +13,3 @@ if space < 20:
 
 else:
     print("integer out of bounds")
-
-#hashmap version 
