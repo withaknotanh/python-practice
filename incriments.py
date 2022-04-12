@@ -14,7 +14,6 @@ import numpy as np
 for x in np.arange(0, 1, 0.1):          #range is from 0 to 1 in 0.1 incriments
     print(x)
 
-
 #more robust rebecka version?
 lower = int(input("enter min"))
 upper = int(input("enter max"))
