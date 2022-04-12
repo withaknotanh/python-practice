@@ -7,14 +7,13 @@ import numpy as np
 
 n = int(input("enter an integer less than 20"))                 #prompts user to enter integer 
 
-if n < 20:                                                      #if in bounds, round pi to the inputted integer amount
+if n < 20:                                                      #if in bounds, round pi to the inputted integer amount after decimal
     print(np.round(np.pi, n))
 else:
     print("integer out of bounds")  
     
 
 #rebecka version where n is total places
-
 import numpy as np
 
 n = int(input("enter an integer less than 20"))                 #prompts user to enter integer 
