@@ -6,8 +6,7 @@ Created on Tue Apr 12 12:03:59 2022
 @author: rebeckamoreno
 """
 #Create a for loop to increment by .1 at each iteration 
-#Console outputs a numbe
-
+#Outputs to console
 
 #rebecka version
 import numpy as np
