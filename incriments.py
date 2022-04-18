@@ -5,14 +5,19 @@ Created on Tue Apr 12 12:03:59 2022
 
 @author: rebeckamoreno
 """
-#Create a for loop to increment by .1 at each iteration 
-#Outputs to console
+#Create a for loop to increment at each iteration 
+#Console outputs 
+#Must work for negative and float numbers
+#Can incremenet upwards and backwards
 
-def incrimentFun(start, end, incriment):
-    while start < end:
+def incrementFun(start, end, increment):
+    while start < end:                      # allows to increment upwards
         yield start
-        start = start + incriment
+        start = start + increment
 
+    while start > end:                      # allows to increment backwards 
+        yield start
+        start = start - increment 
 
-for x in incrimentFun(1.5, 10.5, 2):
+for x in incrementFun(10.5, 1.5, 0.1):
   print(x)
