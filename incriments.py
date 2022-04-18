@@ -13,7 +13,6 @@ def incrimentFun(start, end, incriment):
         yield start
         start = start + incriment
 
-list = incrimentFun(1, 2, 0.1)
 
-for x in list:
+for x in incrimentFun(1.5, 10.5, 2):
   print(x)
