@@ -6,10 +6,9 @@ import numpy as np
 
 def yumE(n):
     if n < 20:
-        print(round(np.e, (n-1))) 
+        return(round(np.e, (n-1))) 
     else: 
         print("integer out of bounds")
 
 
-for x in yumE(4):
-    print(x)
+print(yumE(4))
