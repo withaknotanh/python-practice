@@ -6,10 +6,8 @@ import numpy as np
 
 def yummyPi(n):
     if n < 20:
-        print(round(np.pi, (n-1))) 
+        return(round(np.pi, (n-1))) 
     else: 
         print("integer out of bounds")
-
-
-for x in yummyPi(4):
-    print(x)
+    
+print(yummyPi(4))
